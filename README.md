@@ -1,45 +1,89 @@
-<h1 align="center">Hi 👋, I'm Md Tayve Hossin Jony</h1>
-- 👯 I’m looking to collaborate **Biomass-derived porous carbon anodes for sodium-ion batteries**
+<h1 align="center">Hi, I'm Jony 👋</h1>
 
-- 🤝 I’m looking for help with **Quantum ESPRESSO SCF convergence for O-terminated MXene slabs**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/www.linkedin.com/in/md-taybe-hossin-jony-751685414" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/md-taybe-hossin-jony-751685414" height="30" width="40" /></a>
+<p align="center">
+  <b>Materials Science & Engineering student at RUET</b><br/>
+  Computational materials · Sodium-ion batteries · Water treatment
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://canvasjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> </p>
-name: Generate Snake Animation
+<p align="center">
+  <img src="https://img.shields.io/badge/RUET-MSE-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Rajshahi-Bangladesh-green?style=for-the-badge" />
+  <img src="https://komarev.com/ghpvc/?username=jony079&label=Profile%20views&color=0e75b6&style=for-the-badge" />
+</p>
 
-on:
-  schedule:
-    - cron: "0 */12 * * *"   # every 12 hours
-  workflow_dispatch:          # allows manual run
-  push:
-    branches:
-      - main
+---
 
-permissions:
-  contents: write
+## 🧑‍🔬 About me
 
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: Generate snake SVGs
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+I'm **Md Taybe Hossin Jony**, a Materials Science and Engineering student at **Rajshahi University of Engineering & Technology (RUET)**, Bangladesh. I work in my department's battery research group, and my research spans computational materials science, electrochemistry and water treatment. I also tutor SSC and HSC Science students in Physics, Chemistry and Math.
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+- 🔭 I'm currently working on **Closed-Loop Discovery of Defect-Engineered Ti₃C₂Tₓ MXene for Na-ion Anodes (DFT + GNN)** → [project link](https://github.com/jony079/YOUR-REPO)
+- 👯 I'm looking to collaborate on **biomass-derived porous carbon anodes for sodium-ion batteries** → [project link](https://github.com/jony079/YOUR-REPO)
+- 🤝 I'm looking for help with **Quantum ESPRESSO SCF convergence for O-terminated MXene slabs** → [project link](https://github.com/jony079/YOUR-REPO)
+- 🌱 I'm currently learning **Quantum ESPRESSO, DFT, pymatgen, GNN and Bayesian optimization**
+- 💬 Ask me about **crystallography, sodium-ion batteries, DFT, Streamlit and Plotly**
+- 📫 How to reach me: **YOUR_EMAIL@gmail.com**
+- 👨‍💻 All of my projects are available at [portfolio link](https://YOUR-PORTFOLIO)
+- 📄 Know about my experiences: [resume link](https://YOUR-RESUME)
+- ⚡ Fun fact: **I research batteries by day and tutor SSC/HSC Physics, Chemistry and Math by night**
+
+---
+
+## 🏆 Highlights
+
+- 🥇 **Top 15 Finalist**, Energy Innovation Challenge 2026 (EIC-2026): IP-NPC sodium-ion battery anode project
+- 🎓 Certificates: Anthropic *Claude Code in Action*, *Claude Code 101*, *AI Fluency*; Elsevier Researcher Academy *Gen AI in the research workflow* and *How to identify research gaps*
+- 🧊 Built the **Cubic Crystal Visualizer**, an interactive 3D Streamlit app (SC/BCC/FCC/HCP unit cells, Miller planes, XRD simulator)
+
+---
+
+## 🌐 Connect with me
+
+<p>
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:YOUR_EMAIL@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/jony079"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
+
+---
+
+## 🛠️ Languages and Tools
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+</p>
+
+**Research tools:** Quantum ESPRESSO · VESTA · OVITO · pymatgen · Materials Project API
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=jony079&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jony079&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jony079/jony079/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jony079/jony079/output/github-contribution-grid-snake.svg" />
+    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/jony079/jony079/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+---
+
+<p align="center">
+  <i>"Building better batteries, one simulation at a time."</i> 🔋
+</p>
