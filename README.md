@@ -71,22 +71,6 @@ I'm **Md Taybe Hossin Jony**, a Materials Science and Engineering student at **R
 </p>
 
 ---
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jony079/jony079/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jony079/jony079/output/github-contribution-grid-snake.svg" />
-    <img alt="Contribution snake animation" src="https://raw.githubusercontent.com/jony079/jony079/output/github-contribution-grid-snake.svg" />
-  </picture>
-</p>
-
----
-
-<p align="center">
-  <i>"Building better batteries, one simulation at a time."</i> 🔋
-</p>
 name: Generate Snake Animation
 
 on:
